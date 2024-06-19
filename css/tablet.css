@@ -1,0 +1,382 @@
+@media screen and (min-width: 700px) and (max-width:1279px) {
+    .nav {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 70px;
+        padding-left: 70px;
+        align-items: center;
+        position: fixed;
+    }
+    span {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    .logoa {
+        color: white;
+        font-family: "Dancing Script";
+        font-size: 14px;
+        text-decoration: double;
+        width: 40vw;
+    }
+    .navul {
+        width: 50vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        justify-items: center;
+    }
+    .navli {
+        list-style-type: none;
+    }
+    .nava {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .lihr {
+        display: none;
+    }
+
+
+
+
+    .headerhome {
+        padding: 60px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 62vw 20%;
+        align-content: center;
+        align-items: center;
+    }
+    .homeimg {
+        margin-top: 120px;
+        width: 85%;
+        grid-area: 1/1/2/2;
+    }
+    .hometextwr {
+        width: 85%;
+        grid-area: 1/2/2/3;
+        justify-self: self-end;
+    }
+    .hometextwr {
+        width: 85%;
+        padding-top: 50px;
+        color: white;
+        display: grid;
+        grid-template-columns: 20% 20% 10% 20% 20%;
+        grid-template-rows: 80px 80px 150px 65px;
+        gap: 2.5%;
+        justify-self: end;
+    }
+    .maintitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 55px;
+        width: 300px;
+        grid-area: 1/1/2/4;
+    }
+    .homehr {
+        width: 180px;
+        grid-area: 1/2/2/5;
+        height: 1px;
+        align-self: center;
+    }
+    .homesubtext {
+        align-self: center;
+        grid-area: 1/2/2/4;
+        justify-self: center;
+        padding: 6.5vw;
+        margin-top: 6vw;
+        color: #FFFFFF;
+    }
+    .letsgo {
+        grid-area: 2/1/3/2;
+        align-self: center;
+        width: 200px;
+        height: 60px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+        justify-self: self-end;
+        margin: 15%;
+    }
+    .formbutton {
+        grid-area: 2/2/3/3;
+        align-self: center;
+        width: 200px;
+        height: 60px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+        margin: 15%;
+    }
+
+
+
+
+    .introduction {
+        padding: 40px 60px 40px 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-template-rows: 13% 14% 29.5%;
+        align-items: center;
+        column-gap: 12%;
+
+    }
+    .introdimg {
+        width: 100%;
+        background: #D9D9D9;
+        grid-area: 3/2/5/3;
+        /* justify-self: self-end; */
+        align-self: center;
+
+    }
+    .introdtitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 55px;
+        color: white;
+        grid-area: 1/1/2/2;
+    }
+    .inthr {
+        width: 260px;
+        height: 1px;
+        grid-area: 2/1/3/3;
+        align-self: self-start;
+    }
+    .intp {
+        color: white;
+        font-size: 16px;
+        align-self: center;
+    }
+    .intpone {
+        grid-area: 3/1/4/2;
+    }
+    .intptwo {
+        grid-area: 4/1/5/2;
+    }
+
+
+
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 0px 40px 60px;
+        justify-content: center;
+    }
+    .introdimgwr {
+        width: 100%;
+    }
+    .sktitle {
+        width: 100%;
+        font-size: 55px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffffff;
+
+    }
+    .skimgo, .skimgt, .skimgh {
+        padding: 20px;
+        height: min-content;
+    }
+    .skimgo {
+        padding-left: 0;
+    }
+    .skimgo {
+        min-width: 380px;
+    }
+    .skimgt {
+        display: none;
+    }
+    .skimgh {
+        min-width: 185.5px;
+        padding-right: 0;
+    }
+    .skimgf {
+        display: none;
+    }
+    .skillswr {
+        width: 290px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skittles {
+        width: 140px;
+        height: min-content;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skwrtitle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 20%;
+    }
+    .skon {
+        width: 200px;
+        grid-area: 3/1/4/3;
+    }
+    .sktw {
+        width: 110px;
+        grid-area: 3/1/4/3;
+    }
+    .skillslist {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-auto-flow: dense;
+        height: 70%;
+        gap: 10px;    
+    }
+
+
+
+
+
+
+    .introdimgwr {
+        width: 100%;
+        max-height: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 60px 40px 60px;
+    }
+    .projtitle {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 91px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projhr {
+        width: 174px;
+    }
+    .projwr {
+        width: 100%;
+        display: grid;
+        height: 85%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 45%);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .projimg {
+        width: 30vw;
+        border: 1px solid white;
+        padding: 5px;
+
+    }
+    .proja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+
+
+    .contacts {
+        padding: 40px 150px 40px 150px;
+        display: grid;
+        grid-template-columns: 20% 6.3% 9.3% 20% 44.3%;
+        grid-template-rows: repeat(4, 25%);
+    }
+    .contimg:nth-child(1) {
+        width: 256px;
+        height: 100%;
+        grid-area: 1/1/5/2;
+        object-fit: contain;
+    }
+    .contimg:nth-child(2) {
+        background: #ABABAB;
+        width: 273px;
+        height: 273px;
+        grid-area: 3/2/5/4;
+        align-self: self-end;
+    }
+    .conttitle {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 91px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        grid-area: 1/4/2/6;
+        align-self: self-end;
+    }
+    .conthr {
+        margin: 15px;
+        width: 171px;
+        color: white;
+        height: 1px;
+        grid-area: 2/5/3/6;
+
+    }
+    .continf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+
+    }
+    .continfwr {
+        grid-area: 3/5/4/6;
+        margin: 15px;
+    }
+    .formbuttonfot {
+        grid-area: 4/5/5/6;
+        margin: 15px;
+        width: 150px;
+        height: 40px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+    }
+
+
+
+
+    .footer {
+        padding: 40px 60px 40px 60px;
+    }
+    .foohr {
+        height: 4px;
+        width: 100%;
+        align-self: center;
+    }
+    .footimg {
+        width: 50px;
+        height: 50px;
+        background: #b9b9b9;
+    }
+}

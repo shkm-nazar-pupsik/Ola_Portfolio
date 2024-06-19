@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inria Sans", sans-serif;
+}
+.nav {
+    background: #3C3C3C;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.headerhome {
+    background: #222222;
+    height: 100vh;
+    width: 100%;
+}
+.introduction {
+    background: #222222;
+    height: 90vh;
+    width: 100%;
+}
+.skills {
+    background: #222222;
+    height: 100vh;
+    width: 100%;
+}
+.projects {
+    background: #222222;
+    height: 120vh;
+    width: 100%;
+} 
+.contacts {
+    background: #222222;
+    height: 90vh;
+    width: 100%;
+    }
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    height: 40vh;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.imgfotwr {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-self: center;
+}
+@media screen and (min-width: 1280px) {
+    .nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 150px;
+        padding-left: 150px;
+        align-items: center;
+        position: fixed;
+    }
+    span {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    .logoa {
+        color: white;
+        font-family: "Dancing Script";
+        font-size: 34px;
+        text-decoration: double;
+        width: 40vw;
+    }
+    .navul {
+        width: 50vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        justify-items: center;
+    }
+    .navli {
+        list-style-type: none;
+    }
+    .nava {
+        text-decoration: none;
+        color: white;
+    }
+    .lihr {
+        display: none;
+    }
+
+
+    .headerhome {
+        display: grid;
+        grid-template-columns: 40vw 20vw 20vw;
+        grid-template-rows: 70% 30%;
+        padding: 90px 150px 40px 150px;
+        justify-content: space-between;
+        /* justify-items: center; */
+    }
+    .homeimg {
+        width: 30vw;
+    }
+    .hometextwr {
+        width: 85%;
+        padding-top: 50px;
+        color: white;
+        display: grid;
+        grid-template-columns: 20% 20% 10% 20% 20%;
+        grid-template-rows: 80px 80px 150px;
+        gap: 2.5%;
+        justify-self: end;
+        grid-area: 1/2/2/4;
+    }
+    .maintitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 76px;
+        width: 448px;
+        grid-area: 1/1/2/4;
+    }
+    .homehr {
+        width: 330px;
+        grid-area: 1/2/2/5;
+        height: 1px;
+        align-self: center;
+    }
+    .homesubtext {
+        align-self: center;
+        grid-area: 1/2/2/4;
+        justify-self: center;
+        padding: 6vw;
+        margin-top: 9vw;
+        color: #FFFFFF;
+    }
+    .letsgo {
+        grid-column: 2/3;
+        width: 200px;
+        height: 60px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+        justify-self: self-end;
+
+    }
+    .formbutton {
+        grid-column: 3/4;
+        width: 200px;
+        height: 60px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+        justify-self: self-end;
+    }
+
+
+    
+    .introduction {
+        padding: 40px 150px 40px 150px;
+        display: grid;
+        grid-template-columns: 20% 20% 45%;
+        grid-template-rows: 18% 24% 39.5%;
+        align-items: center;
+        column-gap: 7.5%;
+        row-gap: 9%;
+
+    }
+    .introdimg {
+        width: 450px;
+        height: 450px;
+        background: #D9D9D9;
+        grid-area: 1/3/4/4;
+        justify-self: end;
+
+    }
+    .introdtitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 76px;
+        color: white;
+        grid-area: 1/1/2/2;
+    }
+    .inthr {
+        width: 360px;
+        height: 1px;
+        grid-area: 2/1/3/3;
+        align-self: self-start;
+    }
+    .intp {
+        color: white;
+        font-size: 18px;
+        align-self: self-start;
+    }
+    .intpone {
+        grid-area: 3/1/4/2;
+    }
+    .intptwo {
+        grid-area: 3/2/4/3;
+    }
+
+
+    .skills {
+        padding: 40px 0px 40px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .introdimgwr {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .skimgo, .skimgt, .skimgh {
+        padding: 20px;
+        height: min-content;
+    }
+    .skimgo {
+        padding-left: 0;
+    }
+    .skimgo, .skimgt {
+        min-width: 470px;
+    }
+    .skimgh {
+        min-width: 235.5px;
+        padding-right: 0;
+    }
+    .skimgf {
+        display: none;
+    }
+    .sktitle {
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 91px;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    width: 400px;
+    text-transform: uppercase;
+    height: min-content;
+    }
+    .skillswr {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skittles {
+        width: 140px;
+        height: min-content;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skwrtitle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 20%;
+    }
+    .skon {
+        width: 200px;
+        grid-area: 3/1/4/3;
+    }
+    .sktw {
+        width: 110px;
+        grid-area: 3/1/4/3;
+    }
+    .skillslist {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-auto-flow: dense;
+        height: 70%;
+        gap: 10px;    
+    }
+
+
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 150px 40px 150px;
+    }
+    .projtitle {
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 91px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projhr {
+        width: 174px;
+    }
+    .projwr {
+        width: 100%;
+        display: grid;
+        height: 85%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 45%);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .projimg {
+        width: 30vw;
+        border: 1px solid white;
+        padding: 5px;
+
+    }
+    .proja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+    .contacts {
+        padding: 40px 150px 40px 150px;
+        display: grid;
+        grid-template-columns: 20% 6.3% 9.3% 20% 44.3%;
+        grid-template-rows: repeat(4, 25%);
+    }
+    .contimg:nth-child(1) {
+        width: 20vw;
+        height: 100%;
+        grid-area: 1/1/5/2;
+        object-fit: contain;
+    }
+    .contimg:nth-child(2) {
+        background: #ABABAB;
+        width: 273px;
+        height: 273px;
+        grid-area: 3/2/5/4;
+        align-self: self-end;
+    }
+    .conttitle {
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 91px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        grid-area: 1/4/2/6;
+        align-self: self-end;
+    }
+    .conthr {
+        margin: 15px;
+        width: 386px;
+        color: white;
+        height: 1px;
+        grid-area: 2/5/3/6;
+
+    }
+    .continf {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+
+    }
+    .continfwr {
+        grid-area: 3/5/4/6;
+        margin: 15px;
+    }
+    .formbuttonfot {
+        grid-area: 4/5/5/6;
+        margin: 15px;
+        width: 200px;
+        height: 60px;
+        background: transparent;
+        border: 3px solid #3C3C3C;
+        color: #ffffff;
+    }
+
+    .footer {
+        padding: 40px 150px 40px 150px;
+    }
+    .foohr {
+        height: 4px;
+        width: 100%;
+        align-self: center;
+    }
+    .footimg {
+        width: 70px;
+        height: 70px;
+        background: #b9b9b9;
+    }
+}
