@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    border-radius: 50px;
+}
+.header {
+    background: #2f2632;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.topcont {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    background: #d9d9d9;
+    padding: 50px 100px;
+}
+p {
+    color: #212121;
+}
+.date, .where {
+    color: white;
+    font-family: 'Vollkorn SC';
+}
+.maintitle {
+    color: white;
+    font-family: 'Vollkorn SC';
+}
+
+
+
+.firstsection {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstsecttext {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.imffirstsect {
+    width: 284px;
+}
+.secondsect {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sectp {
+    max-width: 550px;
+    font-family: 'EB Garamond';
+    font-size: 22px;
+}
+.imsecsect {
+    width: 446px;
+    height: 405px; 
+}
+.imthirdsect {
+    width: 401px;
+    height: 268px;
+}
+.thirdsection {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourthsect {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imfourthsect {
+    width: 481px; 
+    height: 645px;
+}
+.fifthsection {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    height: 200px;
+    width: 100%;
+    background: #2f2632;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+}
+.footertitle {
+    color: white;
+    font-family: 'Vollkorn SC';
+    font-size: 25px;
+    border-bottom: 2px solid white;
+}
