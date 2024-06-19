@@ -1,0 +1,598 @@
+ /*ПОЗАКОНТЕЙНЕРОВІ ПАРАМЕТРИ*/
+ @font-face {
+	font-family: Jura;
+	src: url('../Jura/Jura-Regular.ttf');
+ }
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jura', sans-serif;
+	font-stretch: 300%;
+}
+.container {
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+.mainarrow {
+	width: 60px;
+	position: fixed;
+	right: 140px;
+	bottom: 50px;
+}
+/*БЛОК 1, ХЕДЕР*/
+.header {
+	height: 750px;
+}
+.blocktitle {
+	margin-left: 39px;
+}
+.navul {
+	width: 300px;
+	display: inline-block;
+	margin-top: 19px;
+}
+.nav {
+	width: 386px;
+	height: 60px;
+	margin-top: 65px;
+	margin-bottom: 90px;
+}
+.ulitem {
+	display: inline-block;
+	font-family: 'Jura', sans-serif;
+	font-style: 900;
+	font-size: 16px;
+	line-height: 19px;
+	color: #006AA7;
+	margin-right: 15px;
+	font-stretch: expanded;
+}
+.ukrheart {
+	display: inline-block;
+	float: right;
+}
+.blocktitle {
+	width: 430px;
+	display: inline-block;
+}
+.mainphoto {
+	float: right;
+	margin-right: 50px;
+	vertical-align: top;
+}
+.ukraine {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 118px;
+	font-stretch: expanded;
+}
+.afterwin {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 59px;
+	font-stretch: expanded;
+}
+.pfirst {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	font-stretch: expanded;
+}
+.receivesticker {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	font-stretch: expanded;
+	padding: 15px 50px;
+	margin-top: 10px;
+	box-shadow: 0px 4px 5px #969696;
+	background: #006aa7;
+	color: #ffffff;
+	border: transparent;
+	cursor: pointer;
+}
+.receivesticker:hover {
+	background: #ffd61f;
+	color: #006aa7;
+} 
+/*БЛОК 2, МИНУЛЕ*/
+.past {
+	width: 1240px;
+	height: 430px;
+	clear: both;
+	background: #f5f5f5;
+	padding: 38px;
+	padding-left: 73px;
+}
+.pastformal {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+.pastarticle {
+	width: 260px;
+	height: 250px;
+	display: inline-block;
+	background: white;
+	margin-right: 15px;
+	padding: 14px;
+	padding-top: 22px;
+}
+.pastimg {
+	margin-bottom: 10px;
+}
+.articletitle {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contarrow {
+	width: 125px;
+	height: 40px;
+	float: right;
+	margin-top: 15px;
+}
+.full, .arrow {
+	display: inline-block;
+}
+.full {
+	float: left;
+	margin-top: 10px
+}
+.arrow {
+	float: right;
+	cursor: pointer;
+}
+.pastarticle:hover {
+	background: #006aa7;
+	color: white;
+}
+/*БЛОК 3, КОЗАКИ*/
+.kozaksection {
+	width: 1240px;
+	height: 305px;
+	padding: 37px 73px;
+	padding-right: 1px;
+}
+.kozaktitle {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.kozakblock {
+	width: 530px;
+	height: 180px;
+	background: #006aa7;
+	display: inline-block;
+	padding: 25px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 8px;
+}
+.kozakdiv {
+	width: 366px;
+	height: 119px;
+	float: left;
+	display: inline-block;
+}
+.kozakimg {
+	display: inline-block;
+	float: right;
+}
+.kozakgrey {
+	width: 270px;
+	height: 180px;
+	background: #e6e6e6;
+	display: inline-block;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 10px;
+	border: 1px solid black;
+	margin-right: 8px;
+}
+.kozakgrey:last-child {
+	margin-right: 0px;
+}
+.kozakgreytitle {
+	font-size: 17px;
+}
+.kozakblocktitle {
+	padding-bottom: 16px;
+	font-size: 26px;
+}
+.kozakcont {
+	height: 180px;
+} 
+/*БЛОК 4, МРІЯ*/
+.mriyasection {
+	width: 1240px;
+	height: 450px;
+	background: #ffd61f;
+	padding: 30px 35px;
+	padding-right: 40px;
+	margin-bottom: 100px;
+}
+.mriyaimg {
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+}
+.mriyatitle {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.mriyasection p {
+	font-size: 19px;
+}
+.readmore {
+	width: 200px;
+	height: 50px;
+	font-size: 16px;
+	float: left;
+	background: #ffd609;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.readmore:hover {
+	background: #BD930A;
+}
+.mriyadiv {
+	width: 650px;
+	height: 285px;
+	float: left;
+	display: inline-block;
+}
+.mriyap {
+	margin-bottom: 30px;
+}
+/*БЛОК 5, СЬОГОДЕННЯ*/
+.nowadaysection {
+	padding-left: 73px;
+}
+.nowadaysubtitle, .nowadaytitle {
+	text-align: center;
+	margin-bottom: 6px;
+}
+.nowaday4div {
+	width: 260px;
+	height: 150px;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 7px;
+	vertical-align: top;
+	margin-right: 14px;
+	margin-bottom: 40px;
+	padding: 5px;
+}
+.nowadayimgcontainer {
+	padding-left: 12px;
+}
+.nowadayimgtitle {
+	margin-bottom: 10px;
+}
+.nowadayimg {
+	margin-right: 13px;
+	margin-bottom: 40px;
+}
+/*БЛОК ЗЕЛЕНСЬКИЙ*/
+.zelenskyydiv {
+	width: 800px;
+	height: 250px;
+	background: #006AA7;
+	border-radius: 5px;
+	margin: auto;
+	color: white;
+	padding: 35px;
+	margin-bottom: 40px;
+}
+.zelenskyyimg {
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+}
+.zelenskyyp {
+	font-size: 33px;
+	display: inline-block;
+	float: right;
+}
+.zelenskyypdiv {
+	width: 530px;
+	float: left;
+	display: inline-block;
+} 
+/*БЛОК 6, МАРАФОН*/
+.marathonsection {
+	width: 1240px;
+	height: 390px;
+}
+.marathontitle, .marathonsubtitle {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.marathontitle {
+	font-size: 24px;
+}
+.marathonsubtitle {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.marathon6div {
+	width: 350px;
+	height: 120px;
+	background: #ffd609;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 10px 10px 0px 10px;
+}
+.marathoncont {
+	margin-left: 80px;
+}
+.marathonimg {
+	width: 100px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+} 
+.marathonp {
+	font-size: 14px;
+	vertical-align: middle;
+}
+/*БЛОК 7, МАЙБУТНЄ*/
+.futuretitle, .futuresubtitle {
+	font-size: 24px;
+	text-align: center;
+}
+.futuresubtitle {
+	margin-bottom: 12px;
+}
+.futuresection {
+	background: #e6e6e6;
+	width: 1240px;
+	height: 630px;
+	padding: 30px 0px 0px 60px;
+}
+.future5div {
+	background: white;
+	display: inline-block;
+	padding: 15px 15px 16px 18px;
+	vertical-align: top;
+	margin: 20px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+.future5div:first-child {
+	width: 340px;
+	height: 230px;
+}
+.future5div:nth-child(2) {
+	width: 340px;
+	height: 230px;
+}
+.future5div:nth-child(3) {
+	width: 340px;
+	height: 230px;
+}
+.futurep {
+	font-size: 16px;
+}
+.future5div:nth-child(4) {
+	width: 520px;
+	height: 200px;
+	margin-right: 20px;
+}
+.future5div:last-child {
+	width: 520px;
+	height: 200px;
+}
+.futureimg {
+	margin-bottom: 15px;
+}
+.future5div:hover {
+	background: #006aa7;
+	color: white;
+}
+/*БЛОК 8, НАЦІЯ ВІЛЬНИХ ЛЮДЕЙ*/
+.nationsection {
+	width: 1240px;
+	height: 270px;
+	padding: 5px 0px 0px 85px;
+}
+.nationp {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.nationimg {
+	margin-right: 20px; 
+}
+/*БЛОК 9, СПІКЕРПАК*/
+.stickerpacksection {
+	width: 1240px;
+	height: 651px;
+	padding-left: 80px;
+}
+.stickerpacktitle {
+	text-align: center;
+	margin-bottom: 47px;
+	font-size: 22px;
+}
+.stickersimg {
+	width: 162px;
+	margin-bottom: 23px;
+	margin-right: 20px; 
+}
+/*ФУТЕР*/
+.footer {
+	width: 1240px;
+	height: 100px;
+	background: #006AA7;
+	padding-top: 20px;
+}
+.footerp {
+	display: inline-block;
+	float: left;
+	color: white;
+	margin-top: 20px;
+	font-size: 19px;
+}
+.footerimg {
+	width: 60px;
+	display: inline-block;
+	float: right;
+}
+.footercontainer {
+	width: 270px;
+	margin: 0 auto;
+}
+ 
+
+/*СТОРІНКА НОВИЙ РІК*/
+
+/*ХЕДЕР*/
+.new_section_one{
+	width: 1240px;
+	height: 745px;
+	background: #D4F9F2;
+}
+.left{
+	float: left;
+	width: 400px;
+	padding-top: 65px;
+	padding-left: 40px;
+}
+.tree {
+	margin-bottom: 85px;
+}
+.title_new{
+	font-family: 'Jura';
+	font-style: normal;
+	font-size: 100px;
+	margin-bottom: 33px;
+}
+.bottom_new{
+	width: 360px;
+	height: 50px;
+	background: #FF1C52;
+	padding-left: 60px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	text-decoration: none;
+}
+.nav_in_bottom_new:hover{
+	color: black;
+}
+.nav_in_bottom_new{
+	font-family: 'Jura';
+	font-style: normal;
+	color: white;
+}
+.right{
+	float: right;
+}
+/*ПОБАЖАННЯ СВІТУ*/
+.dreamworldimg {
+	width: 60px;
+}
+.dreamworldsection {
+	width: 1240px;
+	height: 430px;
+	background: #FF1C52;
+	padding: 40px 55px;
+}
+.dreamworldtitle {
+	color: white;
+	text-align: center;
+	margin-bottom: 65px;
+	display: inline-block;
+}
+.dreamworld4div {
+	width: 260px;
+	height: 250px;
+	padding: 20px 15px;
+	display: inline-block;
+	margin-right: 18px;
+}
+.dreamworld4div:nth-child(odd) {
+	background: #FFFFFF;
+}
+.dreamworld4div:nth-child(even) {
+	background: #258A86;
+	color: white;
+}
+.dreamworld4divtitle {
+	margin-bottom: 15px;
+}
+.stars {
+	display: inline-block;
+}
+.titlecontainer {
+	width: 390px;
+	margin: auto;
+}
+/*ПОБАЖАННЯ УКРАЇНІ*/
+.dreamukrsection {
+	width: 1240px;
+	height: 415px;
+	background: #D4F9F2;
+	padding: 40px 55px;
+}
+.dreamukrtitle {
+	color: #258A86;
+	text-align: center;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.dreamukr4div {
+	width: 260px;
+	height: 250px;
+	padding: 20px 15px;
+	display: inline-block;
+	margin-right: 18px;
+	vertical-align: top;
+}
+.dreamukr4div:nth-child(odd) {
+	background: #F9C00D;
+}
+.dreamukr4div:nth-child(even) {
+	background: #FFFFFF;
+}
+.dreamukr4divtitle {
+	margin-bottom: 15px;
+}
+/*ПОБАЖАННЯ РОДИНІ*/
+.dreamfamilysection {
+	width: 1240px;
+	height: 430px;
+	background: #FF1C52;
+	padding: 40px 55px;
+}
+.dreamfamilytitle {
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.dreamfamily4div {
+	width: 260px;
+	height: 250px;
+	padding: 20px 15px;
+	display: inline-block;
+	margin-right: 18px;
+	vertical-align: top;
+}
+.dreamfamily4div:nth-child(odd) {
+	background: #FFFFFF;	
+}
+.dreamfamily4div:nth-child(even) {
+	background: #258A86;
+	color: white;
+}
+.dreamfamily4divtitle {
+	margin-bottom: 15px;
+}
