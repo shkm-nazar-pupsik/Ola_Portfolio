@@ -1,0 +1,763 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.nav {
+    display: flex;
+    padding: 103px;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+.logonavdiv {
+    display: flex;
+    align-items: center;
+}
+.conquestlogotext {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    color: #555248;
+
+}
+.logoa {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navul {
+    display: flex;
+    align-items: center;
+}
+.navli {
+    list-style-type: none;
+    padding: 20px;
+}
+.navlip {
+    color: #555248;
+    font-family: 'Roboto', sans-serif;
+
+}
+.navlia {
+    text-decoration: none;
+
+}
+.othernavdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+
+.mainone {
+    display: flex;
+    flex-direction: column;
+}
+.collection {
+    background-image: url(../img/elipse_main.png);
+    height: 755px;
+    display: flex;
+    padding-left: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.collectiontext {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title {
+    font-family: 'Playfair Display';
+    font-size: 45px;
+    font-weight: 400;
+    color: #1B1A17;
+}
+.subtitle {
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    font-weight: 400;
+    color: #1B1A17;
+}
+.descript {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #1B1A17D1;
+}
+.buttonmain {
+    width: 205px;
+    height: 64px;
+    background: #444240;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: white;
+}
+.buttona {
+    text-decoration: none;
+    color: white;
+}
+
+.mainwatch {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.pricemaindiv {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+}
+.mmmaindiv {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+}
+.pricemain, .mmmain {
+    font-family: 'Prata';
+    font-size: 16px;
+}
+.mainhr {
+    width: 40px;
+    color: #8B8371;
+    size: 1px;
+}
+.mainwatchabsolutecont {
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    justify-content: space-between;
+
+}
+
+.popularmodels {
+    display: flex;
+    flex-direction: column;
+    padding: 103px;
+}
+.titlewrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.popmodtitle {
+    align-self: center;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B1A17;
+
+}
+.kataloga {
+    align-self: flex-end;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 7px;
+    color: #444240;
+    border-bottom: 1px solid #C4C0B6;
+}
+.watchcardswr {
+    display: flex;
+    justify-content: space-between;
+}
+.watchcardvip {
+    background: #FDFDFB;
+    background-image: url(../img/Ellipse_vip.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    padding-bottom: 35px;
+}
+.watchnamevip {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #1B1A17D1;
+}
+.watchpricevip {
+    font-family: 'Prata';
+    font-size: 12px;
+    font-weight: 400;
+    color: #1B1A17D1;
+}
+.details {
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1A17;
+}
+/* .watchimgvip {
+    box-shadow: 2px 2px 10px 0px #5552483B;
+} */
+.detailsavip {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.quality {
+    background-image: url(../img/bg_banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.qualityimgwr {
+    display: flex;
+    flex-direction: column;
+}
+.qualityimg {
+    width: 511px;
+    height: 404px;
+}
+.aroowswr {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+.arrowp {
+    font-family: 'Prata';
+    font-size: 12px;
+    font-weight: 400;
+    color: #1B1A17D1;
+}
+.qualitytextwr {
+    width: 376px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px;
+}
+.qualitytitle {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B1A17;
+}
+.qualityp {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #444240;
+}
+.qualitybutton {
+    width: 205px;
+    height: 64px;
+    background: #D4B098;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.news {
+    display: flex;
+    height: 590px;
+    align-items: center;
+    justify-content: center;
+}
+.newstitle {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B1A17;
+}
+.newstextwr {
+    width: 500px;
+    height: 400px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+.newstitlewr {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsp {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #444240;
+}
+b {
+    color: #262421;
+}
+.newsimgsm {
+    width: 242px;
+    height: 225px;
+    margin: 5px;
+}
+.newsimgbg {
+    width: 377px;
+    height: 460px;
+    margin: 5px;
+}
+.newsimgwrtwo {
+    display: flex;
+    flex-direction: column;
+}
+.newsimgwr {
+    display: flex;
+}
+.newsiconwr {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    height: 275px;
+    background: #444240;
+    display: flex;
+    padding: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerlogowr {
+    display: flex;
+    align-items: center;
+}
+.footerfourwr {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foottextlogo {
+    font-family: 'Playfair Display SC';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: #FFFFFF;
+}
+.footnumb, .fourp {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFFBF;
+}
+.foota {
+    text-decoration: none;
+}
+.foottitl {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+
+.maintwo {
+    padding: 103px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.maipagea {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+.katalogaa {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #555248;
+    text-decoration: none;
+}
+.manwatchesimg {
+    width: 252px;
+    height: 300px;
+}
+.manwatchesart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FDFDFB;
+    width: 252px;
+    border: 1px dashed #444240;
+    background-image: url(../img/Ellipse_vip.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.manwatchesa {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    color: #444240;
+    text-decoration: none;
+    padding: 15px;
+}
+.asect {
+    margin-bottom: 30px;
+}
+.katalogtitle {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    align-self: center;
+}
+.arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menkattitle {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+}
+.menkattitlewr {
+    display: flex;
+    justify-content: space-between;
+}
+.menkatalogsection {
+    display: flex;
+    justify-content: space-between;
+}
+.menkatalogaside {
+    width: 230px;
+}
+.mencatcard {
+    width: 252px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFDFB;
+    margin: 30px;
+    position: relative;
+}
+.mencatcardimg {
+    width: 252px;
+    height: 304px;
+    position: absolute;
+}
+.mencatalogvariants {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    
+}
+.mencatcard:nth-child(6) {
+    background-image: url(../img/Mask_Group.png);
+    background-size: contain;
+    background-color: #D4B098;
+    font-family: 'Playfair Display SC';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+.mencatcard:nth-child(3) {
+    border: 1px dashed black;
+}
+.mencatcardtitlem {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mencatcardpricem { 
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mencatcardtitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #444240;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.mencatcardprice {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #636261;
+    margin: 25px;
+    margin-top: 0;
+
+}
+.menkatalogaside {
+    width: 200px;
+    margin: 10px;
+}
+.mencatasideimg {
+    width: 200px;
+}
+.menkatasidebrendtitlewr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mencatasideothers {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    color: #444240;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.menkatasidebrendtitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    color: #444240;
+}
+.cancelfilters {
+    border: 2px solid #E7E0CF;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;   
+    letter-spacing: 0.05em;
+    margin-top: 25px;
+}
+.menkatasidebrendtitlewr {
+    margin: 15px;
+}
+.checkbox {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+.menkatasidebrend {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    color: #6F6E6D;
+    margin-left: 15px;
+}
+.strapcard {
+    width: 360px;
+    height: 374px;
+    background-color: #FDFDFB;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.strapvariantssect {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.strapcardimg {
+    width: 360px;
+    height: 374px;
+}
+.straptitle {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B1A17;
+
+}
+.straptitlewr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.strapcardimg {
+    position: absolute;
+}
+.strapcardtitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #444240;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.strapcardprice {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #636261;
+    margin-left: 15px;
+}
+.technesection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.technea {
+    text-decoration: none;
+}
+.techneimagessect {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+.technescript {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFDFB;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+.technemainimg {
+    width: 388px;
+    height: 470px;
+}
+.technesmallimgs {
+    width: 90px;
+    height: 90px;
+}
+.arrowbig {
+    width: 14px;
+    height: 24px;
+}
+.arrow {
+    width: 9px;
+    height: 14px;
+}
+.technebigimgdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.technesmallimgdiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.scripttitlewr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scripttitle {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #444240;
+}
+.scriptprice {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #686868;
+    /* margin-top: 15px; */
+}
+.scriptdetailstext {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.scriptdetails {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #444240;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C4C0B6;
+}
+.scriptdetailss {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #444240;
+}
+.scriptp {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.addtoch {
+    width: 185px;
+    height: 60px;
+    background: #31302C;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: transparent;
+}
+.past {
+    display: flex;
+    flex-direction: column;
+}
+.pastvariants {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pasttitle {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B1A17;
+
+}
